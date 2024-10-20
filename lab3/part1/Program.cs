@@ -49,7 +49,7 @@ namespace CsharpProgram
                 Vector obj = new Vector(a.x*b.x,a.y*b.y,a.z*b.z);
                 return obj;
             }
-            public static Vector operator *(Vector a, int b)
+            public static Vector operator *( int b,Vector a)
             {
                 Vector obj = new Vector(a.x * b, a.y * b, a.z * b);
                 return obj;
